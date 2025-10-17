@@ -34,7 +34,7 @@ header li a:hover {
   color: #a1887f;
 }
 .imagem-principal {
-  max-width: 200%;
+  max-width: 100%;
   height: auto;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -80,3 +80,22 @@ footer p {
   font-size: medium;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  
+  /* Faz o menu de navegação ficar vertical */
+  header ul {
+    flex-direction: column;
+    gap: 15px; /* Adiciona um espaço entre os itens do menu */
+  }
+
+  /* Ajusta o tamanho da fonte dos parágrafos para telas menores */
+  p {
+    font-size: 1.1rem; /* Usar 'rem' é uma unidade mais flexível */
+  }
+
+  /* Ajusta o alinhamento do texto nos banners para o centro */
+  .imagem-metade, .imagem-metade2 {
+    align-items: center;
+    text-align: center;
+  }
