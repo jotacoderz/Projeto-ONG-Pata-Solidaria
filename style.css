@@ -58,6 +58,19 @@ header li a:hover {
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
+.imagem-metade2 {
+  background-image: url("img/fases-da-vida-de-um-cachorro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 55%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
 section h1,
 p {
   text-align: left;
