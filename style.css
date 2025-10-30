@@ -5,6 +5,12 @@ body {
   font-family: "Poppins", sans-serif;
   background-size: cover;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1; /* empurra o footer pro fim */
 }
 p {
   font-size: x-large;
@@ -67,22 +73,17 @@ header li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: start;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 section h1,
-p {
+section p {
   text-align: left;
   margin: 20px;
 }
-footer p {
-  font-size: medium;
-  text-align: center;
-}
 
 @media (max-width: 768px) {
-  
   /* Faz o menu de navegação ficar vertical */
   header ul {
     flex-direction: column;
@@ -95,7 +96,51 @@ footer p {
   }
 
   /* Ajusta o alinhamento do texto nos banners para o centro */
-  .imagem-metade, .imagem-metade2 {
+  .imagem-metade,
+  .imagem-metade2 {
     align-items: center;
     text-align: center;
   }
+}
+.contato-adocao {
+  text-align: center;
+  margin: 40px 0;
+}
+
+footer {
+  background-color: #5d4037;
+  color: #f5f1e9;
+  padding: 10px 0;
+  text-align: center;
+}
+footer p {
+  font-size: 17px;
+}
+
+.seja-voluntario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 60px auto;
+  max-width: 900px;
+  padding: 0px;
+}
+
+.seja-voluntario h2 {
+  color: #0f0f0f;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.seja-voluntario ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.seja-voluntario p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
