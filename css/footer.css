@@ -1,0 +1,9 @@
+/* ============================= */
+/* FOOTER                        */
+/* ============================= */
+footer {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: var(--space-2) 0;
+  text-align: center;
+}

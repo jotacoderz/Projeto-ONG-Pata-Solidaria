@@ -1,0 +1,30 @@
+/* ============================= */
+/* RESPONSIVIDADE                */
+/* ============================= */
+@media (max-width: 768px) {
+  p {
+    font-size: var(--fs-sm);
+  }
+
+  .imagem-metade,
+  .imagem-metade2 {
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  header ul {
+    flex-direction: column;
+    display: none;
+    gap: var(--space-2);
+  }
+
+  header ul.show {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
+    margin-bottom: var(--space-2);
+  }
+}

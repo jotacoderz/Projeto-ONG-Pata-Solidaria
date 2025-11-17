@@ -1,0 +1,15 @@
+/* ============================= */
+/* CARDS / BOTOES / BADGES       */
+/* ============================= */
+.card {
+  background-color: var(--color-secondary);
+  border-radius: 12px;
+  padding: var(--space-3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: var(--space-3);
+}
+
+button {
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}

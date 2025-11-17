@@ -1,0 +1,84 @@
+/* ============================= */
+/* MAIN / SECTIONS               */
+/* ============================= */
+main {
+  flex: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.imagem-metade,
+.imagem-metade2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.imagem-metade {
+  height: 50vh;
+  align-items: flex-start;
+  padding-left: var(--space-4);
+  background-image: url("../img/mllhmwhorrma1.jpg");
+}
+
+.imagem-metade2 {
+  height: 40vh;
+  align-items: flex-start;
+  padding-left: var(--space-4);
+  background-image: url("../img/fases-da-vida-de-um-cachorro.jpg");
+}
+
+section h1,
+section p {
+  text-align: left;
+  margin: var(--space-3) 0;
+  line-height: 1.2;
+}
+
+.imagem-principal {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* SEÇÃO VOLUNTÁRIOS */
+.seja-voluntario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: var(--space-6) auto;
+  max-width: 900px;
+}
+
+.seja-voluntario h2 {
+  font-size: var(--fs-xl);
+  margin-bottom: var(--space-3);
+}
+
+.seja-voluntario ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.seja-voluntario p {
+  font-size: var(--fs-md);
+  margin-bottom: var(--space-2);
+}
+
+/* CONTATO FINAL */
+.contato-final {
+  text-align: center;
+  margin: var(--space-5) 0;
+}
