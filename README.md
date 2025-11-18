@@ -40,3 +40,13 @@ Este projeto consiste na criação de uma plataforma web para a ONG fictícia **
 ├─ images/
 ├─ README.md
 └─ dist/ # versão otimizada para produção
+
+## ✒️ Autor
+
+**João Nepomuceno**
+
+- **Email:** joaogabrielgamer2014@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/joaogabrielnepomuceno/
+- **GitHub:** https://github.com/jotacoderz
+
+Projeto desenvolvido como parte da disciplina de Análise e Desenvolvimento de Sistemas, integrando práticas profissionais de **versionamento, acessibilidade e otimização**.

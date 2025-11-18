@@ -6,7 +6,7 @@ const animais = [
   { nome: "Malu", imagem: "img/boo.jpeg" },
   {
     nome: "Sapeca",
-    imagem: "img/under-the-sun-cat-and-dog-bppucysbyeapunzy.webp",
+    imagem: "img/sapeca.jpeg",
   },
 ];
 
