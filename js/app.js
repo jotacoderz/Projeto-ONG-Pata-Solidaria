@@ -2,8 +2,8 @@
 // Dados dos animais
 // =======================
 const animais = [
-  { nome: "Malu", imagem: "img/mllhmwhorrma1.jpg" },
-  { nome: "Boomerang", imagem: "img/fases-da-vida-de-um-cachorro.jpg" },
+  { nome: "Boomerang", imagem: "img/malu.jpeg" },
+  { nome: "Malu", imagem: "img/boo.jpeg" },
   {
     nome: "Sapeca",
     imagem: "img/under-the-sun-cat-and-dog-bppucysbyeapunzy.webp",

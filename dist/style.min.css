@@ -24,42 +24,6 @@ h3 {
 .container {
   padding: 30px 20px;
 }
-.seja-voluntario {
-  display: flex;
-  flex-direction: column; /* organiza h2, p, ul e form em coluna */
-  justify-content: center; /* centraliza verticalmente */
-  align-items: center; /* centraliza horizontalmente */
-  text-align: center; /* centraliza o texto dentro dos elementos */
-  min-height: 100vh; /* ocupa altura total da tela */
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.seja-voluntario ul {
-  list-style: none; /* remove bullets */
-  padding: 0;
-  margin: 20px 0;
-  text-align: center; /* garante centralização do texto dentro da lista */
-}
-
-.seja-voluntario ul li {
-  margin-bottom: 10px;
-}
-
-.seja-voluntario form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 500px; /* limita largura do formulário */
-}
-
-.seja-voluntario input,
-.seja-voluntario textarea,
-.seja-voluntario button {
-  width: 100%;
-  margin-bottom: 15px;
-}
 .cards-animais {
   display: flex;
   gap: 20px;
