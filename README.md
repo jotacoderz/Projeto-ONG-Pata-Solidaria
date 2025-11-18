@@ -41,6 +41,18 @@ Este projeto consiste na criação de uma plataforma web para a ONG fictícia **
 ├─ README.md
 └─ dist/ # versão otimizada para produção
 
+🚀 Como Visualizar o Projeto
+
+O projeto pode ser visualizado ao vivo através do link do GitHub Pages:
+
+    Link do Site: https://jotacoderz.github.io/Projeto-ONG-Pata-Solidaria/
+
+Para rodar localmente (necessário para a navegação SPA funcionar):
+
+    1. Clone ou baixe o repositório.
+    2. Instale a extensão Live Server no VS Code.
+    3. Clique com o botão direito no index.html e selecione "Open with Live Server".
+
 ## ✒️ Autor
 
 **João Nepomuceno**
